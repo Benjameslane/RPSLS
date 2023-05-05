@@ -96,7 +96,7 @@ namespace RPSLS
 
                 if (playerOne.chosenGesture == "rock" && playerTwo.chosenGesture == "rock")
                 {
-                    Console.WriteLine("draw");
+                    Console.WriteLine("it's a draw");
                 }
                 else if (playerOne.chosenGesture == "rock" && playerTwo.chosenGesture == "paper")
                 {
