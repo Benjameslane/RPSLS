@@ -192,7 +192,14 @@ namespace RPSLS
 
         public void DisplayGameWinner()
         {
-
+            if(playerOne.score == 2)
+            {
+                Console.WriteLine($"{playerOne} WINS THE GAME!");
+            }
+            else if (playerTwo.score == 2)
+            {
+                Console.WriteLine($"{playerTwo} WINS THE GAME!");
+            }
         }
 
         public void RunGame()
@@ -204,6 +211,7 @@ namespace RPSLS
             CreatePlayerObjects(numberOfHumanPlayers);
 
             CompareGestures();
+            DisplayGameWinner();
 
 
 
