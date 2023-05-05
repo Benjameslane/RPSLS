@@ -20,7 +20,7 @@ namespace RPSLS
             int computerChoice = random.Next(gestures.Count);                         //is this the proper way to pull random gesture from string? stepping through it it looks like the terminal and value are single digit numbers
             chosenGesture = gestures[computerChoice];
 
-            Console.WriteLine(computerChoice);
+            Console.WriteLine($"Computer plays: {chosenGesture}");
             return;
 
 
