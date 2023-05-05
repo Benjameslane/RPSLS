@@ -71,12 +71,12 @@ namespace RPSLS
             }
             else if (numberOfHumanPlayers == 2)
             {
-                Console.WriteLine("Insert Player One Name");
+                Console.WriteLine("Insert Name For Player One");
               
                 
                playerOne = new HumanPlayer(Console.ReadLine());
                  
-                Console.WriteLine("Insert Player Two Name");
+                Console.WriteLine("Insert Name For Player Two");
                
                 
                 playerTwo = new HumanPlayer(Console.ReadLine());
