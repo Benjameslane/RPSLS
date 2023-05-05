@@ -17,10 +17,10 @@ namespace RPSLS
         public override void ChooseGesture()
         {
             Random random = new Random();
-            int computerChoice = random.Next(gestures.Count);                         //is this the proper way to pull random gesture from string? stepping through it it looks like the terminal and value are single digit numbers
+            int computerChoice = random.Next(gestures.Count);                         
             chosenGesture = gestures[computerChoice];
 
-            Console.WriteLine($"Computer plays: {chosenGesture}");
+            Console.WriteLine($"Player Two plays: {chosenGesture}");
             return;
 
 

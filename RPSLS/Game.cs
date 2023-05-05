@@ -98,6 +98,22 @@ namespace RPSLS
                 {
                     Console.WriteLine("it's a draw");
                 }
+                else if (playerOne.chosenGesture == "paper" && playerTwo.chosenGesture == "paper")
+                {
+                    Console.WriteLine("it's a draw");
+                }
+                else if (playerOne.chosenGesture == "scissors" && playerTwo.chosenGesture == "scissors")
+                {
+                    Console.WriteLine("it's a draw");
+                }
+                else if (playerOne.chosenGesture == "lizard" && playerTwo.chosenGesture == "lizard")
+                {
+                    Console.WriteLine("it's a draw");
+                }
+                else if (playerOne.chosenGesture == "spock" && playerTwo.chosenGesture == "spock")
+                {
+                    Console.WriteLine("it's a draw");
+                }
                 else if (playerOne.chosenGesture == "rock" && playerTwo.chosenGesture == "paper")
                 {
                     Console.WriteLine($"{playerTwo.name} wins that round");
