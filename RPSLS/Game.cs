@@ -194,11 +194,11 @@ namespace RPSLS
         {
             if(playerOne.score == 2)
             {
-                Console.WriteLine($"{playerOne.name} WINS THE GAME!");
+                Console.WriteLine($"{playerOne.name} WINS THE GAME!!");
             }
             else if (playerTwo.score == 2)
             {
-                Console.WriteLine($"{playerTwo.name} WINS THE GAME!");
+                Console.WriteLine($"{playerTwo.name} WINS THE GAME!!");
             }
         }
 
